@@ -20,7 +20,7 @@ namespace mongodbconexion
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // y asi odre vivir del amor que tu me das
 
             MongoClient cliente = new MongoClient("mongodb://127.0.0.1:27017");
             var database = cliente.GetDatabase("prueba");
